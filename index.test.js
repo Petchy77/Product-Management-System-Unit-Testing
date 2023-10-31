@@ -23,7 +23,6 @@ describe('API Endpoints', () => {
   
     it('POST /products should create a new product', async () => {
       const newProduct = {
-        id: 1,
         name: 'New Product',
         category: 'New Category',
         price: 10.99,
